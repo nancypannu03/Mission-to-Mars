@@ -21,6 +21,7 @@ In this Analysis, we will help Robin scrape, organize, analyze, and visualize th
         
 ### Deliverable 2 :
 Scrape and analyze Mars weather data, which exists in a table.
+
         mars_df = pd.read_html("https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html")
         mars_df
         
@@ -49,8 +50,9 @@ Scrape and analyze Mars weather data, which exists in a table.
            highest_pressure_month=month_pressure_df.loc[month_pressure_df['pressure']==max_avg_pressure]
            highest_pressure_month
 
-           # Save DataFrame to a CSV file
-             df.to_csv('Mars_df')
+           
 
-#### Code and Images
+
 ### CSV File
+       # Save DataFrame to a CSV file
+          df.to_csv('Mars_df')
