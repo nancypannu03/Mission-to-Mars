@@ -5,7 +5,10 @@
 In this Analysis, we will help Robin scrape, organize, analyze, and visualize the data. We will identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup
 ## Results :
 ### Deliverable 1 :  Scrape titles and preview text from Mars news articles. Optionally export the data into a JSON file or a MongoDB database.
-#### Code and Images
+
+[mars_data_challenge_part_1 ipynb File](mars_data_challenge_part_1.ipynb)
+
+#### Code 
         mars_news = []
         for m in news_p:
         title = m.find("div", class_="content_title").text
@@ -21,6 +24,9 @@ In this Analysis, we will help Robin scrape, organize, analyze, and visualize th
         
 ### Deliverable 2 : Scrape and analyze Mars weather data, which exists in a table.
 
+[mars_data_challenge_part_2 ipynb File](mars_data_challenge_part_2.ipynb)
+
+[Retirement_titles csv](Data/retirement_titles.csv)
 Scrape and analyze Mars weather data, which exists in a table.
 
         mars_df = pd.read_html("https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html")
@@ -55,5 +61,8 @@ Scrape and analyze Mars weather data, which exists in a table.
 
 
 ### CSV File
+
+[Mars_weather CSV File](Mars_weather)
+
        # Save DataFrame to a CSV file
           df.to_csv('Mars_df')
