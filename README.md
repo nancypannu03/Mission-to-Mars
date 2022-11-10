@@ -47,6 +47,8 @@ Scrape and analyze Mars weather data, which exists in a table.
            max_temp_avg = month_temp_df.max()
            max_temp_avg
 
+ [Mars Monthy Average Temperature](Resources/mars_monthly_temp.png )
+
          # Which month have the lowest  atmospheric pressure on Mars?
            min_avg_pressure= month_pressure_df['pressure'].min()
            lowest_pressure_month=month_pressure_df.loc[month_pressure_df['pressure']==min_avg_pressure]
@@ -56,7 +58,7 @@ Scrape and analyze Mars weather data, which exists in a table.
            highest_pressure_month=month_pressure_df.loc[month_pressure_df['pressure']==max_avg_pressure]
            highest_pressure_month
 
-           
+    [Mars Monthy  Average Pressure](Resources/monthly_pressure.png )       
 
 
 ### CSV File
