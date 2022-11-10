@@ -26,7 +26,6 @@ In this Analysis, we will help Robin scrape, organize, analyze, and visualize th
 
 [mars_data_challenge_part_2 ipynb File](mars_data_challenge_part_2.ipynb)
 
-[Retirement_titles csv](Data/retirement_titles.csv)
 Scrape and analyze Mars weather data, which exists in a table.
 
         mars_df = pd.read_html("https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html")
