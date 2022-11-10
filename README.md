@@ -59,8 +59,8 @@ Scrape and analyze Mars weather data, which exists in a table.
            highest_pressure_month
 
    ![Test Image](Resources/monthly_pressure.png )       
-
-
+  
+   
 ### CSV File
 
 [Mars_weather CSV File](Mars_weather)
