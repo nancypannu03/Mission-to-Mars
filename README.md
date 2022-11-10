@@ -58,7 +58,7 @@ Scrape and analyze Mars weather data, which exists in a table.
            highest_pressure_month=month_pressure_df.loc[month_pressure_df['pressure']==max_avg_pressure]
            highest_pressure_month
 
-    ![Test Image](Resources/monthly_pressure.png )       
+   ![Test Image](Resources/monthly_pressure.png )       
 
 
 ### CSV File
